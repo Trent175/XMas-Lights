@@ -1,0 +1,3 @@
+void CreateConsole();
+
+void KillConsole();
