@@ -22,6 +22,15 @@
     <Filter Include="Source Files\console">
       <UniqueIdentifier>{23e56510-9e14-48de-90fc-3170175856ca}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\callback">
+      <UniqueIdentifier>{2dd0fb4f-6738-4a0e-821e-479a82a10769}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine">
+      <UniqueIdentifier>{a77c1c4e-10db-4057-aa66-b4df88e8553a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\gui">
+      <UniqueIdentifier>{d6bb3303-021c-4afa-8be3-5d8af441bb63}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="imgui\imconfig.h">
@@ -51,6 +60,18 @@
     <ClInclude Include="ConsoleHandler.h">
       <Filter>Source Files\console</Filter>
     </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="render.h">
+      <Filter>Source Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="callbacks.h">
+      <Filter>Source Files\callback</Filter>
+    </ClInclude>
+    <ClInclude Include="guicreate.h">
+      <Filter>Source Files\gui</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="imgui\imgui.cpp">
@@ -74,11 +95,25 @@
     <ClCompile Include="imgui\backends\imgui_impl_win32.cpp">
       <Filter>imgui\backends</Filter>
     </ClCompile>
-    <ClCompile Include="main.cpp">
+    <ClCompile Include="winmain.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="ConsoleHandler.cpp">
       <Filter>Source Files\console</Filter>
     </ClCompile>
+    <ClCompile Include="CallbackHandler.cpp">
+      <Filter>Source Files\callback</Filter>
+    </ClCompile>
+    <ClCompile Include="render.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="guicreate.cpp">
+      <Filter>Source Files\gui</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="XMasLightsImgui.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

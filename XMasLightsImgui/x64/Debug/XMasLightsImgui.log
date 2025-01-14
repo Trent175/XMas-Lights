@@ -1,2 +1,9 @@
-﻿  main.cpp
+﻿  guicreate.cpp
+C:\Users\weema\source\repos\XMasLightsImgui\XMasLightsImgui\guicreate.cpp(27,42): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\weema\source\repos\XMasLightsImgui\XMasLightsImgui\guicreate.cpp(28,40): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\weema\source\repos\XMasLightsImgui\XMasLightsImgui\guicreate.cpp(28,33): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\weema\source\repos\XMasLightsImgui\XMasLightsImgui\guicreate.cpp(30,20): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\weema\source\repos\XMasLightsImgui\XMasLightsImgui\guicreate.cpp(31,21): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+C:\Users\weema\source\repos\XMasLightsImgui\XMasLightsImgui\guicreate.cpp(34,34): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\weema\source\repos\XMasLightsImgui\XMasLightsImgui\guicreate.cpp(34,22): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
   XMasLightsImgui.vcxproj -> C:\Users\weema\source\repos\XMasLightsImgui\x64\Debug\XMasLightsImgui.exe
